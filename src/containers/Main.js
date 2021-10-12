@@ -6,11 +6,11 @@ import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
-import Achievement from "./achievement/Achievement";
-import Blogs from "./blogs/Blogs";
+// import Achievement from "./achievement/Achievement";
+// import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
-import Talks from "./talks/Talks";
-import Podcast from "./podcast/Podcast";
+// import Talks from "./talks/Talks";
+// import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -38,11 +38,11 @@ const Main = () => {
         <WorkExperience />
         <Projects />
         <StartupProject />
-        <Achievement />
+        {/* <Achievement />
         <Blogs />
-        <Talks />
+        <Talks /> */}
         <Twitter />
-        <Podcast />
+        {/* <Podcast /> */}
         <Profile />
         <Footer />
         <Top />

@@ -7,28 +7,28 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection
+  // openSource,
+  // blogSection,
+  // talkSection,
+  // achievementSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
-  const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  // const viewAchievement = achievementSection.display;
+  // const viewBlog = blogSection.display;
+  // const viewTalks = talkSection.display;
 
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
+          {/* <span className="grey-color"> &lt;</span> */}
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          {/* <span className="grey-color">/&gt;</span> */}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -49,7 +49,7 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {/* {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
             </li>
@@ -68,7 +68,7 @@ function Header() {
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>

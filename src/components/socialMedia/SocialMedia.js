@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -34,7 +34,7 @@ export default function socialMedia() {
 
       {socialMediaLinks.gmail ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href={socialMediaLinks.gmail}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
@@ -112,6 +112,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.telegram ? (
+        <a
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-telegram-plane"></i>
           <span></span>
         </a>
       ) : null}
