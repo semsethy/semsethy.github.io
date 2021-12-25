@@ -27,7 +27,7 @@ const socialMediaLinks = {
   github: "https://github.com/ChamnabYun",
   linkedin: "https://www.linkedin.com/in/yun-chamnab/",
   gmail: "https://mail.google.com/mail/u/2/#inbox?compose=VpCqJRzbJqQZGwCTLGwWDfMwBCkPzZxXxndghMDDBhjbWqBThSbcPfJDjXnrzKFcNkMsgXL",
-  facebook: "https://www.facebook.com//Dude.7he.Best",
+  facebook: "https://www.facebook.com/nab.cham.yun",
   // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
   telegram: "https://t.me/yun_chamnab",
