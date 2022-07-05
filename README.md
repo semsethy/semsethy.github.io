@@ -1,5 +1,7 @@
 ﻿## ChamnabYun.github.io
- 
+
+
+>###### Preview URL: [chamnabyun.github.io](https://chamnabyun.github.io)
 
 ### How To Use 
 
@@ -23,8 +25,6 @@ GITHUB_USERNAME = "YOUR GITHUB USERNAME"
 ### How To Deploy
 
 ```bash
-# Push to `gh-pages` branch it wll automatically build and deploy to github page
-git push
-
-Preview URL: [chamnabyun.github.io](https://chamnabyun.github.io)
+# It will automatically build and deploy to github page
+npm run deploy
 ```
