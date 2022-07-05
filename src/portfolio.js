@@ -14,7 +14,7 @@ const greeting = {
   username: "Yun Chamnab",
   title: "Hi, I'm Chamnab!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Nodejs / Typescript / Vuejs / Laravel / Django and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web applications with Nodejs / Vuejs / AngularJS / Laravel / Cakephp / Django and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zb2BZuS9tTNR7Zpw2jN3dLlBOyY_I32l/view?usp=sharing", // Set to empty to hide the button
@@ -26,7 +26,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ChamnabYun",
   linkedin: "https://www.linkedin.com/in/yun-chamnab/",
-  gmail: "https://mail.google.com/mail/u/2/#inbox?compose=VpCqJRzbJqQZGwCTLGwWDfMwBCkPzZxXxndghMDDBhjbWqBThSbcPfJDjXnrzKFcNkMsgXL",
+  gmail: "mailto:nab.cham.yun@gmail.com",
   facebook: "https://www.facebook.com/nab.cham.yun",
   // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
@@ -44,11 +44,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end and Backend for web applications"
+      "- Develop highly interactive Frontend and Backend for web applications"
     ),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    emoji(
+      "- Integration of third party services such as Firebase / Azure AD"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -56,11 +56,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -68,23 +68,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "vuejs",
+      skillName: "NodeJS",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Vuejs",
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "laravel",
+      skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL-Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -92,15 +96,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -116,7 +120,7 @@ const educationInfo = {
       schoolName: "Cambodia Academy of Digital Technology - CADT",
       logo: require("./assets/images/cadt.png"),
       subHeader: "Bachelor of Computer Science",
-      duration: "October 2018 - October 2021",
+      duration: "October 2018 - October 2021"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -124,10 +128,18 @@ const educationInfo = {
       // ]
     },
     {
+      schoolName: "SOVANNAPHUMI SCHOOL",
+      logo: require("./assets/images/sovannaphumi_school.jpg"),
+      subHeader: "Study English Full Time",
+      duration: "January 2012 - October 2017"
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
       schoolName: "CHEA SIM CHROY CHONGVAR HIGHSCHOOL",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Graduated from High school",
-      duration: "September 2013 - April 2018",
+      duration: "September 2013 - April 2018"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -144,13 +156,13 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Database",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -162,26 +174,26 @@ const workExperiences = {
   experience: [
     {
       role: "Backend Developer",
-      company: "CamMob",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "CamMob Co., Ltd",
+      companylogo: require("./assets/images/Logo_CamMob.png"),
       date: "June 2021 – Present",
       desc: "Scoring, Transcript, and Certificate system",
       descBullets: [
-        "Allow lecturer manage score like Excel or Google Sheet",
-        "Generate Transcript and Validate"
+        "Allow lecturers to manage the student's scores",
+        "Generate and validate transcript for students"
       ]
     },
     {
       role: "Web Developer",
-      company: "Anakut Digital Solution",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      company: "Anakut Digital Solution Co., Ltd",
+      companylogo: require("./assets/images/anakut.webp"),
       date: "July 2020 – November 2020",
       desc: "Point of sale system",
       descBullets: [
         "Integration point of sale web app with the digital scale",
         "Generate Purchase and Sale report"
       ]
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -197,13 +209,13 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
