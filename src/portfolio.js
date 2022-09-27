@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Yun Chamnab",
-  title: "Hi, I'm Chamnab!",
+  title: "Hi, I'm Chamnab",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web applications with Nodejs / Vuejs / AngularJS / Laravel / Cakephp / Django and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / VueJS / AngularJS / Ionic / Laravel / Cakephp / Django and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zb2BZuS9tTNR7Zpw2jN3dLlBOyY_I32l/view?usp=sharing", // Set to empty to hide the button
@@ -27,11 +27,12 @@ const socialMediaLinks = {
   github: "https://github.com/ChamnabYun",
   linkedin: "https://www.linkedin.com/in/yun-chamnab/",
   gmail: "mailto:nab.cham.yun@gmail.com",
-  facebook: "https://www.facebook.com/nab.cham.yun",
+  gitlab: "https://gitlab.com/ChamnabYun",
+  // facebook: "https://www.facebook.com/nab.cham.yun",
   // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
   telegram: "https://t.me/yun_chamnab",
-  instagram: "https://www.instagram.com/yunchamnab/",
+  // instagram: "https://www.instagram.com/yunchamnab/",
   twitter: "https://twitter.com/NabNab79",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -84,6 +85,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
+    },
+    {
       skillName: "Laravel",
       fontAwesomeClassname: "fab fa-laravel"
     },
@@ -118,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Cambodia Academy of Digital Technology - CADT",
-      logo: require("./assets/images/cadt.png"),
+      logo: require( "./assets/images/cadt.png" ),
       subHeader: "Bachelor of Computer Science",
       duration: "October 2018 - October 2021"
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -129,7 +134,7 @@ const educationInfo = {
     },
     {
       schoolName: "SOVANNAPHUMI SCHOOL",
-      logo: require("./assets/images/sovannaphumi_school.jpg"),
+      logo: require( "./assets/images/sovannaphumi_school.jpg" ),
       subHeader: "Study English Full Time",
       duration: "January 2012 - October 2017"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -137,7 +142,7 @@ const educationInfo = {
     },
     {
       schoolName: "CHEA SIM CHROY CHONGVAR HIGHSCHOOL",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require( "./assets/images/stanfordLogo.png" ),
       subHeader: "Graduated from High school",
       duration: "September 2013 - April 2018"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -175,18 +180,18 @@ const workExperiences = {
     {
       role: "Backend Developer",
       company: "CamMob Co., Ltd",
-      companylogo: require("./assets/images/Logo_CamMob.png"),
+      companylogo: require( "./assets/images/Logo_CamMob.png" ),
       date: "June 2021 – Present",
       desc: "Scoring, Transcript, and Certificate system",
       descBullets: [
         "Allow lecturers to manage the student's scores",
-        "Generate and validate transcript for students"
+        "Generate and approve transcript for students"
       ]
     },
     {
       role: "Web Developer",
       company: "Anakut Digital Solution Co., Ltd",
-      companylogo: require("./assets/images/anakut.webp"),
+      companylogo: require( "./assets/images/anakut.webp" ),
       date: "July 2020 – November 2020",
       desc: "Point of sale system",
       descBullets: [
@@ -219,7 +224,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/scoring_logo.webp"),
+      image: require( "./assets/images/scoring_logo.webp" ),
       projectName: "Scoring Management",
       projectDesc: "Manage Score, Transcript, and Certificate of the college",
       footerLink: [
@@ -231,7 +236,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/watchfree_logo.webp"),
+      image: require( "./assets/images/watchfree_logo.webp" ),
       projectName: "Watchfree?",
       projectDesc: "Free movie website",
       footerLink: [
@@ -360,7 +365,7 @@ const bigProjects = {
 // };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji( "Contact Me ☎️" ),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+855-15249466",

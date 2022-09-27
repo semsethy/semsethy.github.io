@@ -1,9 +1,8 @@
-﻿## ChamnabYun.github.io
+﻿# ChamnabYun.github.io
 
+>#### Preview URL: [chamnabyun.github.io](https://chamnabyun.github.io)
 
->###### Preview URL: [chamnabyun.github.io](https://chamnabyun.github.io)
-
-### How To Use 
+### How To Use
 
 ```bash
 # Setup default environment variables
@@ -17,7 +16,7 @@ npm start
 ```
 
 ```env
-// .env
+>>.env
 REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 GITHUB_USERNAME = "YOUR GITHUB USERNAME"
 ```
