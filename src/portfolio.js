@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Cambodia Academy of Digital Technology - CADT",
-      logo: require( "./assets/images/cadt.png" ),
+      logo: require("./assets/images/cadt.png"),
       subHeader: "Bachelor of Computer Science",
       duration: "October 2018 - October 2021"
       // desc: "Participated in the research of XXX and published 3 papers.",
@@ -134,7 +134,7 @@ const educationInfo = {
     },
     {
       schoolName: "SOVANNAPHUMI SCHOOL",
-      logo: require( "./assets/images/sovannaphumi_school.jpg" ),
+      logo: require("./assets/images/sovannaphumi_school.jpg"),
       subHeader: "Study English Full Time",
       duration: "January 2012 - October 2017"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -142,7 +142,7 @@ const educationInfo = {
     },
     {
       schoolName: "CHEA SIM CHROY CHONGVAR HIGHSCHOOL",
-      logo: require( "./assets/images/stanfordLogo.png" ),
+      logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Graduated from High school",
       duration: "September 2013 - April 2018"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -178,34 +178,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Third-Party Developer",
+      company: "Mobile C&C Co., Ltd",
+      companylogo: require("./assets/images/mobileCnC.png"),
+      date: "August 2022 – Nov 2022",
+      desc: "Ticketing system",
+    },
+    {
+      role: "Third-Party Developer",
+      company: "Smart Axiata Co., Ltd",
+      companylogo: require("./assets/images/smartAxiata.png"),
+      date: "April 2022 – July 2022",
+      desc: "Sim registration system",
+    },
+    {
       role: "Backend Developer",
       company: "CamMob Co., Ltd",
-      companylogo: require( "./assets/images/Logo_CamMob.png" ),
+      companylogo: require("./assets/images/Logo_CamMob.png"),
       date: "June 2021 – Present",
       desc: "Scoring, Transcript, and Certificate system",
-      descBullets: [
-        "Allow lecturers to manage the student's scores",
-        "Generate and approve transcript for students"
-      ]
+      // descBullets: [
+      //   "Allow lecturers to manage the student's scores",
+      //   "Generate and approve transcript for students"
+      // ]
     },
     {
       role: "Web Developer",
       company: "Anakut Digital Solution Co., Ltd",
-      companylogo: require( "./assets/images/anakut.webp" ),
+      companylogo: require("./assets/images/anakut.webp"),
       date: "July 2020 – November 2020",
       desc: "Point of sale system",
-      descBullets: [
-        "Integration point of sale web app with the digital scale",
-        "Generate Purchase and Sale report"
-      ]
+      // descBullets: [
+      //   "Integration point of sale web app with the digital scale",
+      //   "Generate Purchase and Sale report"
+      // ]
     }
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
@@ -224,7 +231,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require( "./assets/images/scoring_logo.webp" ),
+      image: require("./assets/images/scoring_logo.webp"),
       projectName: "Scoring Management",
       projectDesc: "Manage Score, Transcript, and Certificate of the college",
       footerLink: [
@@ -236,13 +243,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require( "./assets/images/watchfree_logo.webp" ),
+      image: require("./assets/images/watchfree_logo.webp"),
       projectName: "Watchfree?",
-      projectDesc: "Free movie website",
+      projectDesc: "A websit allow to watch free movies",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://www.watchfree.fun/"
+          url: "https://freemovie-39.herokuapp.com/"
         }
       ]
     }
@@ -253,60 +260,35 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-// const achievementSection = {
-//   title: emoji("Achievements And Certifications 🏆 "),
-//   subtitle:
-//     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications that I have done !",
 
-//   achievementsCards: [
-//     {
-//       title: "Google Code-In Finalist",
-//       subtitle:
-//         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-//       image: require("./assets/images/codeInLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "Certification",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-//         },
-//         {
-//           name: "Award Letter",
-//           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-//         },
-//         {
-//           name: "Google Code-in Blog",
-//           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-//         }
-//       ]
-//     },
-//     {
-//       title: "Google Assistant Action",
-//       subtitle:
-//         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-//       image: require("./assets/images/googleAssistantLogo.webp"),
-//       footerLink: [
-//         {
-//           name: "View Google Assistant Action",
-//           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-//         }
-//       ]
-//     },
-
-//     {
-//       title: "PWA Web App Developer",
-//       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-//       image: require("./assets/images/pwaLogo.webp"),
-//       footerLink: [
-//         { name: "Certification", url: "" },
-//         {
-//           name: "Final Project",
-//           url: "https://pakistan-olx-1.firebaseapp.com/"
-//         }
-//       ]
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
+  achievementsCards: [
+    {
+      title: "Privacy Refresher Course",
+      image: require("./assets/images/Smart_Axiata_logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1S_sclSi72-JanzQrnKpoqyYrx1f5KrfP/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "3rd Party Risks Access Receiver Course",
+      image: require("./assets/images/Smart_Axiata_logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1KJHOAoZF9SPmS_WHC2s6U_wb-So0jlnB/view?usp=sharing"
+        }
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Blogs Section
 
@@ -365,7 +347,7 @@ const bigProjects = {
 // };
 
 const contactInfo = {
-  title: emoji( "Contact Me ☎️" ),
+  title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+855-15249466",
@@ -389,7 +371,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  // achievementSection,
+  achievementSection,
   // blogSection,
   // talkSection,
   // podcastSection,
