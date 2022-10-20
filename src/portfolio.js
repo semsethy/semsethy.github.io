@@ -286,6 +286,16 @@ const achievementSection = {
         }
       ]
     },
+    {
+      title: "Crown Jewels Course",
+      image: require("./assets/images/Smart_Axiata_logo.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1kkN1SO0k_IhZWmsXvJJssyL2vyceM_r2/view?usp=sharing"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
