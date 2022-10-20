@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / VueJS / AngularJS / Ionic / Laravel / Cakephp / Django and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zb2BZuS9tTNR7Zpw2jN3dLlBOyY_I32l/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12AHNPAhldQJj8IN8M7Nut_LIyvxTBTI5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
