@@ -16,44 +16,39 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / VueJS / AngularJS / Ionic / Laravel / Cakephp / Django and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/12AHNPAhldQJj8IN8M7Nut_LIyvxTBTI5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/ChamnabYun",
   linkedin: "https://www.linkedin.com/in/yun-chamnab/",
   gmail: "mailto:nab.cham.yun@gmail.com",
   gitlab: "https://gitlab.com/ChamnabYun",
-  // facebook: "https://www.facebook.com/nab.cham.yun",
-  // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
   telegram: "https://t.me/yun_chamnab",
-  // instagram: "https://www.instagram.com/yunchamnab/",
   twitter: "https://twitter.com/NabNab79",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: emoji(
+    "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK"
+  ),
   skills: [
     emoji(
       "- Develop highly interactive Frontend and Backend for web applications"
     ),
-    emoji(
-      "- Integration of third party services such as Firebase / Azure AD"
-    )
+    emoji("- Integration of third party services such as Firebase / Azure AD")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /**
+   * Make Sure to include correct Font Awesome Classname to view your icon
+   * https://fontawesome.com/icons?d=gallery
+   */
 
   softwareSkills: [
     {
@@ -117,7 +112,6 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -125,34 +119,24 @@ const educationInfo = {
       schoolName: "Cambodia Academy of Digital Technology - CADT",
       logo: require("./assets/images/cadt.png"),
       subHeader: "Bachelor of Computer Science",
-      duration: "October 2018 - October 2021"
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      duration: "October 2018 - October 2022"
     },
     {
-      schoolName: "SOVANNAPHUMI SCHOOL",
-      logo: require("./assets/images/sovannaphumi_school.jpg"),
-      subHeader: "Study English Full Time",
-      duration: "January 2012 - October 2017"
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    },
-    {
-      schoolName: "CHEA SIM CHROY CHONGVAR HIGHSCHOOL",
+      schoolName: "Chea Sim Chroy Chongvar Highschool",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Graduated from High school",
       duration: "September 2013 - April 2018"
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Sovannaphumi School",
+      logo: require("./assets/images/sovannaphumi_school.png"),
+      subHeader: "Study English Full Time",
+      duration: "January 2012 - October 2017"
     }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -162,56 +146,49 @@ const techStack = {
     },
     {
       Stack: "Database",
-      progressPercentage: "90%"
+      progressPercentage: "88%"
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
+      Stack: "Frontend/Design",
+      progressPercentage: "86%"
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "HRMS Developer",
+      company: "Advanced Bank of Asia Limited",
+      companylogo: require("./assets/images/ABA_Logo.png"),
+      date: "Jan 2023 – Present"
+    },
+    {
       role: "Third-Party Developer",
       company: "Mobile C&C Co., Ltd",
       companylogo: require("./assets/images/mobileCnC.png"),
-      date: "August 2022 – Nov 2022",
-      desc: "Ticketing system",
+      date: "Aug 2022 – Nov 2022"
     },
     {
       role: "Third-Party Developer",
       company: "Smart Axiata Co., Ltd",
       companylogo: require("./assets/images/smartAxiata.png"),
-      date: "April 2022 – July 2022",
-      desc: "Sim registration system",
+      date: "Apr 2022 – Jul 2022"
     },
     {
       role: "Backend Developer",
       company: "CamMob Co., Ltd",
       companylogo: require("./assets/images/Logo_CamMob.png"),
-      date: "June 2021 – Present",
-      desc: "Scoring, Transcript, and Certificate system",
-      // descBullets: [
-      //   "Allow lecturers to manage the student's scores",
-      //   "Generate and approve transcript for students"
-      // ]
+      date: "Jun 2021 – Dec 2022"
     },
     {
-      role: "Web Developer",
+      role: "Web Developer Intern",
       company: "Anakut Digital Solution Co., Ltd",
       companylogo: require("./assets/images/anakut.webp"),
-      date: "July 2020 – November 2020",
-      desc: "Point of sale system",
-      // descBullets: [
-      //   "Integration point of sale web app with the digital scale",
-      //   "Generate Purchase and Sale report"
-      // ]
+      date: "Jul 2020 – Nov 2020"
     }
   ]
 };
@@ -225,7 +202,6 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -262,8 +238,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications that I have done !",
+  subtitle: "Achievements, Certifications that I have done !",
 
   achievementsCards: [
     {
@@ -295,7 +270,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1kkN1SO0k_IhZWmsXvJJssyL2vyceM_r2/view?usp=sharing"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

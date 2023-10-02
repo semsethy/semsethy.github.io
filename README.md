@@ -12,7 +12,7 @@ copy env.example .env
 npm install
 
 # Start a local dev server
-npm start
+npm run start
 ```
 
 ```env
