@@ -14,7 +14,7 @@ const greeting = {
   username: "Yun Chamnab",
   title: "Hi, I'm Chamnab",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / VueJS / AngularJS / Ionic / Laravel / Cakephp / Django and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / Laravel / Cakephp / NestJS / VueJS / AngularJS / Ionic / Django and some other cool libraries and frameworks."
   ),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -164,31 +164,36 @@ const workExperiences = {
       role: "HRMS Developer",
       company: "Advanced Bank of Asia Limited",
       companylogo: require("./assets/images/ABA_Logo.png"),
-      date: "Jan 2023 – Present"
+      date: "Jan 2023 – Present",
+      desc: "HR Management System"
     },
     {
       role: "Third-Party Developer",
       company: "Mobile C&C Co., Ltd",
       companylogo: require("./assets/images/mobileCnC.png"),
-      date: "Aug 2022 – Nov 2022"
+      date: "Aug 2022 – Nov 2022",
+      desc: "Solar Ticketing System"
     },
     {
       role: "Third-Party Developer",
       company: "Smart Axiata Co., Ltd",
       companylogo: require("./assets/images/smartAxiata.png"),
-      date: "Apr 2022 – Jul 2022"
+      date: "Apr 2022 – Jul 2022",
+      desc: "Dealer App & Sim Registration System"
     },
     {
       role: "Backend Developer",
       company: "CamMob Co., Ltd",
       companylogo: require("./assets/images/Logo_CamMob.png"),
-      date: "Jun 2021 – Dec 2022"
+      date: "Jun 2021 – Dec 2022",
+      desc: "Scoring, Transcript, and Certificate System"
     },
     {
       role: "Web Developer Intern",
       company: "Anakut Digital Solution Co., Ltd",
       companylogo: require("./assets/images/anakut.webp"),
-      date: "Jul 2020 – Nov 2020"
+      date: "Jul 2020 – Nov 2020",
+      desc: "Point of Sale System"
     }
   ]
 };
@@ -198,7 +203,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -230,7 +235,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -275,62 +280,6 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-// const blogSection = {
-//   title: "Blogs",
-//   subtitle:
-//     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-//   blogs: [
-//     {
-//       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-//       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-//       description:
-//         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-//     },
-//     {
-//       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-//       title: "Why REACT is The Best?",
-//       description:
-//         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Talks Sections
-
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji(
-//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-//   ),
-
-//   talks: [
-//     {
-//       title: "Build Actions For Google Assistant",
-//       subtitle: "Codelab at GDG DevFest Karachi 2019",
-//       slides_url: "https://bit.ly/saadpasta-slides",
-//       event_url: "https://www.facebook.com/events/2339906106275053/"
-//     }
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
-// Podcast Section
-
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: [
-//     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-//   ],
-//   display: true // Set false to hide this section, defaults to true
-// };
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -357,9 +306,6 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  // blogSection,
-  // talkSection,
-  // podcastSection,
   contactInfo,
   twitterDetails
 };
