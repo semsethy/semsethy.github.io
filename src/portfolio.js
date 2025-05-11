@@ -283,7 +283,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+855-10 383 493",
-  email_address: "sem.sethy@gmail.com"
+  email_address: "sethyrisk@gmail.com"
 };
 
 // Twitter Section
