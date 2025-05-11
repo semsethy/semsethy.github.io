@@ -23,7 +23,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/semsethy",
   linkedin: "https://www.linkedin.com/in/sem-sethy",
-  gmail: "mailto:nab.cham.yun@gmail.com",
+  gmail: "mailto:sethyrisk@gmail.com",
   // gitlab: "https://gitlab.com/ChamnabYun",
   // stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
   telegram: "https://t.me/yun_chamnab",
