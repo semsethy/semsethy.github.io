@@ -22,7 +22,7 @@ const greeting = {
 // Social Media Links
 const socialMediaLinks = {
   github: "https://github.com/semsethy",
-  linkedin: "https://www.linkedin.com/in/sem-sethy",
+  linkedin: "https://www.linkedin.com/in/sem-sethy-141738289",
   gmail: "mailto:sethyrisk@gmail.com",
   // gitlab: "https://gitlab.com/ChamnabYun",
   // stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
@@ -289,7 +289,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "NabNab79", //Replace "twitter" with your twitter username without @
+  userName: "sethysem", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
