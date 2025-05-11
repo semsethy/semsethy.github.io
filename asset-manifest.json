@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2f02a12.css",
-    "main.js": "/static/js/main.ca6ebac5.js",
+    "main.js": "/static/js/main.64bcd597.js",
     "static/css/141.fa09a82f.chunk.css": "/static/css/141.fa09a82f.chunk.css",
     "static/js/141.35bfdf67.chunk.js": "/static/js/141.35bfdf67.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -24,10 +24,10 @@
     "static/media/scoring_logo.webp": "/static/media/scoring_logo.862c312213785c1a498f.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/watchfree_logo.webp": "/static/media/watchfree_logo.675dea6691497daad142.webp",
-    "index.html": "/index.html",
     "static/media/anakut.webp": "/static/media/anakut.736742a0b7bd6d8bcecc.webp",
+    "index.html": "/index.html",
     "main.e2f02a12.css.map": "/static/css/main.e2f02a12.css.map",
-    "main.ca6ebac5.js.map": "/static/js/main.ca6ebac5.js.map",
+    "main.64bcd597.js.map": "/static/js/main.64bcd597.js.map",
     "141.fa09a82f.chunk.css.map": "/static/css/141.fa09a82f.chunk.css.map",
     "141.35bfdf67.chunk.js.map": "/static/js/141.35bfdf67.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.e2f02a12.css",
-    "static/js/main.ca6ebac5.js"
+    "static/js/main.64bcd597.js"
   ]
 }
