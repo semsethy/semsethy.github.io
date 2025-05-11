@@ -26,7 +26,7 @@ const socialMediaLinks = {
   gmail: "mailto:sethyrisk@gmail.com",
   // gitlab: "https://gitlab.com/ChamnabYun",
   // stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
-  telegram: "https://t.me/yun_chamnab",
+  telegram: "https://t.me/semsethy",
   // twitter: "https://twitter.com/NabNab79",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
