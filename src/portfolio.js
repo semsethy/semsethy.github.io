@@ -11,23 +11,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Yun Chamnab",
-  title: "Hi, I'm Chamnab",
+  username: "Sem Sethy",
+  title: "Hi, I'm Sethy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with NodeJS / Laravel / Cakephp / NestJS / VueJS / AngularJS / Ionic / Django and some other cool libraries and frameworks."
+    "A passionate iOS app developer with experience in building web and mobile applications using Swift / Laravel / PHP / ReactJS / and other cool libraries and frameworks, and experienced in integrating with microservice architecture."
   ),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 const socialMediaLinks = {
-  github: "https://github.com/ChamnabYun",
+  github: "https://github.com/semsethy",
   linkedin: "https://www.linkedin.com/in/yun-chamnab/",
   gmail: "mailto:nab.cham.yun@gmail.com",
-  gitlab: "https://gitlab.com/ChamnabYun",
-  stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
+  // gitlab: "https://gitlab.com/ChamnabYun",
+  // stackoverflow: "https://stackoverflow.com/users/16314311/chamnab",
   telegram: "https://t.me/yun_chamnab",
-  twitter: "https://twitter.com/NabNab79",
+  // twitter: "https://twitter.com/NabNab79",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -36,13 +36,13 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: emoji(
-    "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK"
+    "A CRAZY FULL STACK MOBILE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK"
   ),
   skills: [
     emoji(
-      "- Develop highly interactive Frontend and Backend for web applications"
+      "- Develop highly interactive Frontend and Backend for mobile applications"
     ),
-    emoji("- Integration of third party services such as Firebase / Azure AD")
+    emoji("- Integration of third party services such as Firebase / Cocoa Touch")
   ],
 
   /**
@@ -51,6 +51,30 @@ const skillsSection = {
    */
 
   softwareSkills: [
+    {
+      skillName: "Swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "SQL-Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
     {
       skillName: "HTML",
       fontAwesomeClassname: "fab fa-html5"
@@ -64,48 +88,12 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "NodeJS",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "Vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "yarn",
-      fontAwesomeClassname: "fab fa-yarn"
-    },
-    {
-      skillName: "Laravel",
-      fontAwesomeClassname: "fab fa-laravel"
-    },
-    {
-      skillName: "SQL-Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -116,22 +104,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Cambodia Academy of Digital Technology - CADT",
-      logo: require("./assets/images/cadt.png"),
+      schoolName: "Royal University of Phnom Penh - RUPP",
+      logo: require("./assets/images/rupp_logo.png"),
       subHeader: "Bachelor of Computer Science",
-      duration: "October 2018 - October 2022"
+      duration: "March 2021 - Now"
     },
     {
-      schoolName: "Chea Sim Chroy Chongvar Highschool",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Aditi Academy",
+      logo: require("./assets/images/aditi.jpg"),
+      subHeader: "Study IOS App Development Professional Training for 6 months",
+      duration: "March 2024 - September 2024"
+    },
+    {
+      schoolName: "Kampong Thum High School",
+      logo: require("./assets/images/kpt.jpg"),
       subHeader: "Graduated from High school",
-      duration: "September 2013 - April 2018"
-    },
-    {
-      schoolName: "Sovannaphumi School",
-      logo: require("./assets/images/sovannaphumi_school.png"),
-      subHeader: "Study English Full Time",
-      duration: "January 2012 - October 2017"
+      duration: "September 2019 - April 2021"
     }
   ]
 };
@@ -142,15 +130,15 @@ const techStack = {
   experience: [
     {
       Stack: "Backend",
-      progressPercentage: "90%"
+      progressPercentage: "40%"
     },
     {
       Stack: "Database",
-      progressPercentage: "88%"
+      progressPercentage: "30%"
     },
     {
-      Stack: "Frontend/Design",
-      progressPercentage: "86%"
+      Stack: "Frontend",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -247,32 +235,42 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Privacy Refresher Course",
-      image: require("./assets/images/Smart_Axiata_logo.png"),
+      title: "Certificate of Outstanding Student",
+      image: require("./assets/images/aditi_logo.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1S_sclSi72-JanzQrnKpoqyYrx1f5KrfP/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1esPSn8De8GDg5ApNIaAGqDaD2lYA6TEt/view?usp=sharing"
         }
       ]
     },
     {
-      title: "3rd Party Risks Access Receiver Course",
-      image: require("./assets/images/Smart_Axiata_logo.png"),
+      title: "Certificate of Achievement",
+      image: require("./assets/images/aditi_logo.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1KJHOAoZF9SPmS_WHC2s6U_wb-So0jlnB/view?usp=sharing"
+          url: "https://drive.google.com/file/d/15amhq_9K5aQOAab3S-Wz9jQfpySqep_G/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Crown Jewels Course",
-      image: require("./assets/images/Smart_Axiata_logo.png"),
+      title: "Certificate of Appreciation",
+      image: require("./assets/images/USAID1.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1kkN1SO0k_IhZWmsXvJJssyL2vyceM_r2/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1hpB0oCa8cQxEb173G7JMUQaH9-H8wYqp/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Certificate of Participation",
+      image: require("./assets/images/veiron.jpg"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1VA0V2fBHciXDAm1sZ_2J4g85B3N8IpMG/view?usp=sharing"
         }
       ]
     }
@@ -284,8 +282,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+855-15249466",
-  email_address: "nab.cham.yun@gmail.com"
+  number: "+855-10383493",
+  email_address: "sem.sethy@gmail.com"
 };
 
 // Twitter Section

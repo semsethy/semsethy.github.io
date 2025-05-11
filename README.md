@@ -1,6 +1,6 @@
-﻿# ChamnabYun.github.io
+﻿# SemSethy.github.io
 
->#### Preview URL: [chamnabyun.github.io](https://chamnabyun.github.io)
+>#### Preview URL: [semsethy.github.io](https://semsethy.github.io)
 
 ### How To Use
 
