@@ -130,15 +130,15 @@ const techStack = {
   experience: [
     {
       Stack: "Backend",
-      progressPercentage: "40%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Database",
-      progressPercentage: "30%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Frontend",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -282,7 +282,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+855-10383493",
+  number: "+855-10 383 493",
   email_address: "sem.sethy@gmail.com"
 };
 

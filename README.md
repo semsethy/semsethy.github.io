@@ -1,4 +1,4 @@
-﻿# SemSethy.github.io
+﻿# semsethy.github.io
 
 >#### Preview URL: [semsethy.github.io](https://semsethy.github.io)
 
