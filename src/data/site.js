@@ -166,6 +166,7 @@ export const projects = {
           repo: "https://github.com/semsethy/SwiftUI_Laravel_Ecommerce",
           shots: [
             {src: "/shots/ecom-home.jpg", label: "Home"},
+            {src: "/shots/ecom-detail.jpg", label: "Product detail"},
             {src: "/shots/ecom-cart.jpg", label: "Cart"},
             {src: "/shots/ecom-wishlist.jpg", label: "Wishlist"},
             {src: "/shots/ecom-profile.jpg", label: "Profile"},
