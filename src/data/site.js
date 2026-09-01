@@ -28,7 +28,7 @@ export const about = {
   display: true,
   title: "What I do",
   intro:
-    "I develop and maintain the CUBC Merchant App — a live banking app on the App Store — working alongside a senior developer and a cross-border team across Cambodia and Taiwan.",
+    "I build and ship production iOS apps — owning features from architecture through to App Store release, along with the pipelines and standards that keep shipping repeatable.",
   pillars: [
     {
       icon: "phone",
@@ -42,13 +42,13 @@ export const about = {
     },
     {
       icon: "globe",
-      title: "Work across borders",
-      body: "Day-to-day delivery with product, design, backend and QA teams across Cambodia and Taiwan, fully remote and consistently ahead of deadline."
+      title: "Work across teams and time zones",
+      body: "Day-to-day delivery alongside product, design, backend and QA — comfortable working fully remote with distributed teams, and consistently ahead of deadline."
     },
     {
       icon: "book",
       title: "Leave it maintainable",
-      body: "Code that follows Apple's Human Interface Guidelines and the team's standards, documented so the next person can pick it up."
+      body: "Code that follows Apple's Human Interface Guidelines and agreed team standards, documented so the next person can pick it up."
     }
   ]
 };
@@ -110,7 +110,7 @@ export const projects = {
           status: "live",
           icon: "/logos/cubc-icon.png",
           blurb:
-            "The merchant banking app for Cathay United Bank Cambodia — KHQR payments, multi-branch business management, cashier administration and real-time transaction monitoring. I develop and maintain the iOS app alongside a senior developer, shipping features and releases through to the App Store.",
+            "The merchant banking app for Cathay United Bank Cambodia — KHQR payments, multi-branch business management, cashier administration and real-time transaction monitoring. I develop and maintain the iOS app with the cross-border iOS team in Taiwan, shipping features and releases through to the App Store.",
           meta: [
             {label: "Version", value: "1.0.5"},
             {label: "Category", value: "Finance"},
