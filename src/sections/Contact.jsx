@@ -4,7 +4,7 @@ import {contact, social, profile} from "../data/site";
 
 const cards = [
   {icon: "mail", label: "Email", value: social.email, href: `mailto:${social.email}`},
-  {icon: "telegram", label: "Telegram", value: "@semsethy", href: social.telegram},
+  {icon: "telegram", label: "Telegram", value: `@${social.telegram.split("/").pop()}`, href: social.telegram},
   {icon: "phone", label: "Phone", value: social.phone, href: `tel:${social.phone.replace(/\s/g, "")}`},
   {icon: "pin", label: "Based in", value: contact.address, href: null}
 ];

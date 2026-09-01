@@ -19,7 +19,7 @@ export const profile = {
 export const social = {
   github: "https://github.com/semsethy",
   linkedin: "https://www.linkedin.com/in/semsethy",
-  telegram: "https://t.me/semsethy",
+  telegram: "https://t.me/sethysem",
   email: "sethysem01@gmail.com",
   phone: "+855 97 687 0003"
 };
@@ -66,7 +66,7 @@ export const experience = {
       period: "Jul 2025 — Present",
       current: true,
       summary:
-        "Develop and maintain the CUBC Merchant iOS app, working under a senior developer on features, releases and code quality.",
+        "Develop and maintain the CUBC Merchant iOS app, collaborating with iOS developers and engineers in Taiwan and keeping the codebase in step with new technology.",
       points: [
         "Develop and maintain core features, bug fixes and performance work for the CUBC Merchant App using SwiftUI, Clean Architecture and modern iOS design patterns, owning release branches through to production.",
         "Partner with cross-border project managers, product owners, designers, backend engineers and QA across Cambodia and Taiwan to deliver scalable mobile solutions aligned with business requirements.",
